@@ -7,8 +7,9 @@ from time import sleep
 
 async def main():  
     # open browser and go to url
-
-    browser = await launch(headless= False)
+    
+    # personal preference emi: headless True
+    browser = await launch(headless=True)
     page = await browser.newPage()
     tiktok = await page.goto(URL)
     await page.click(phone_email)
