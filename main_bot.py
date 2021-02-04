@@ -13,17 +13,7 @@ async def main():
     tiktok = await page.goto(URL)
     await page.click(phone_email)
     print("done")
-    '''
-    browser = await  launch(headless=False);
-    page = await browser.newPage();
-    await page.goto('https://www.tiktok.com/login/phone-oremail/email');
-    await page.type('input[name=email]', 'email', delay =20)
-    await page.type('input[name=password]', 'password', delay20)'''
 
-    '''login_button = await page.click(login)
-    sleep(10)
-    #await page.waitForSelector(phone_email)
-    await page.click(phone_email)'''
     sleep(30)
 
     screen_shot = await page.screenshot(screenshot)
@@ -42,17 +32,9 @@ async def main():
     login_button2 = await page.click(login_button_string)   
     sleep(5) 
 
-    
-    try:
-        await page.waitForSelector(admin_role_tag)
-        print("This man is an admin")
-    except:
-        print("Admin found")
-
 
     screen_shot = await page.screenshot(screenshot)
-    print("Took ss") 
-    # Select I'm not a robot'''
+    print("Took ss") '''
     await browser.close()
 
 
