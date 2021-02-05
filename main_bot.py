@@ -14,7 +14,6 @@ async def main():
     tiktok = await page.goto(URL)
     await page.click(phone_email)
     print("done")
-
     sleep(30)
 
     screen_shot = await page.screenshot(screenshot)
