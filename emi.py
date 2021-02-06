@@ -12,7 +12,8 @@ async def main():
     
     # Click on login button 
     click_upload_video = await page.click("#main > div.jsx-1217828260.header-container.white.middle > div > div.jsx-2365341634.menu-right > div > div > span > svg > path") 
-
+    # Click on the login with username button
+    click_user = await page.click("#root > div > div.tiktok-web-body-33PDi.tiktok-web-body-modal-2N5Wt > div > div.login-container-4HZX-.modal-container-fsYki > div.social-container-NE2xk > div:nth-child(2)") 
     sleep(5) 
     screen_shot = await page.screenshot(screenshot)
     print("Took ss") 
