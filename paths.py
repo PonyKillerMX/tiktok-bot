@@ -20,3 +20,9 @@ email_selector = 'input[name="email"]'
 pass_selector = 'input[name="password"]'
 
 admin_role_tag = "#popout_477 > div > div > div.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > div.bodyInnerWrapper-Z8WDxe > div.root-3-B5F3.flex-1O1GKY.wrap-ZIn9Iy.rolesList-22qj2L.endBodySection-Rf4s-7 > div > div.roleName-32vpEy"
+
+login_username = "#root > div > div.tiktok-web-body-33PDi.tiktok-web-body-modal-2N5Wt > div > div.login-container-4HZX-.modal-container-fsYki > div.social-container-NE2xk > div:nth-child(2)"
+
+upload_video = "#main > div.jsx-1217828260.header-container.white.middle > div > div.jsx-2365341634.menu-right > div > div > span > svg > path"
+
+URL = "https://www.tiktok.com"
